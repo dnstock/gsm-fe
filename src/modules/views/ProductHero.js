@@ -4,18 +4,20 @@ import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
 
 const backgroundImage =
+  './productHeroBackground.jpg';
   // './bg/gsm-bg3.jpg'; //*
   // './bg/gsm-bg4.webp'; //*
   // './bg/gsm-bg6.jpg'; //*
   // './bg/gsm-bg7.png'; //*
   // './bg/gsm-bg8.jpg'; //** dark
-  './bg/gsm-bg10.jpg'; //** dark
+  // './bg/gsm-bg10.jpg'; //** dark
   // './bg/gsm-bg15.jpg'; //*
   // './bg/gsm-bg16.jpg'; //*
   // './bg/gsm-bg17.jpg'; //** light
   // './bg/gsm-bg24.jpg'; //**
   // './bg/gsm-bg25.jpg'; //*
   // './bg/gsm-bg29.jpg'; //*
+  // './bg/gsm-bg30.jpg'; //** the one
   // './bg/gsm-bg28.jpg'; // Matrix
   // './bg/gsm-bg5.jpg'; // Skyscrapers
   // './bg/gsm-bg1.jpg';
@@ -36,7 +38,6 @@ const backgroundImage =
   // './bg/gsm-bgX1.jpg';
   // './bg/gsm-bgX2.jpg';
   // './bg/gsm-bgX3.jpg';
-  // 'https://d372nmlv8kweuj.cloudfront.net/miles/bg/Marquee-Finance-Capital-Markets.jpg';
   // 'https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400&q=80';
 
 export default function ProductHero() {
@@ -58,9 +59,9 @@ export default function ProductHero() {
         <img
           src={'./gsm-logo.png'}
           height={80}
-          style={{ marginRight: 20, verticalAlign: "middle" }}
+          style={{ position: "absolute", marginLeft: -105, marginTop: -10 }}
         />
-        Crypto on Steroids.
+        DeFi on Steroids.
       </Typography>
       <Typography
         color="inherit"
@@ -68,7 +69,7 @@ export default function ProductHero() {
         variant="h5"
         sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
       >
-        Create a fund and earn from others. Make your crypto work for you.
+        Create a fund or earn from others. Make your crypto work for you.
       </Typography>
       <Button
         color="secondary"
@@ -81,7 +82,7 @@ export default function ProductHero() {
         Request Invite
       </Button>
       <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
-        Upgrade your experience
+        Expand your experience
       </Typography>
     </ProductHeroLayout>
   );

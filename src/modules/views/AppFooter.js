@@ -10,8 +10,8 @@ function Copyright() {
   return (
     <React.Fragment>
       {'© '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="https://google.com/">
+        GameSetMatch
       </Link>{' '}
       {new Date().getFullYear()}
     </React.Fragment>
@@ -36,10 +36,10 @@ const LANGUAGES = [
     code: 'en-US',
     name: 'English',
   },
-  {
-    code: 'fr-FR',
-    name: 'Français',
-  },
+  // {
+  //   code: 'fr-FR',
+  //   name: 'Français',
+  // },
 ];
 
 export default function AppFooter() {
@@ -59,13 +59,13 @@ export default function AppFooter() {
               sx={{ height: 120 }}
             >
               <Grid item sx={{ display: 'flex' }}>
-                <Box component="a" href="https://mui.com/" sx={iconStyle}>
+                <Box component="a" href="https://google.com/" sx={iconStyle}>
                   <img
                     src="/appFooterFacebook.png"
                     alt="Facebook"
                   />
                 </Box>
-                <Box component="a" href="https://twitter.com/MUI_hq" sx={iconStyle}>
+                <Box component="a" href="https://google.com/" sx={iconStyle}>
                   <img
                     src="/appFooterTwitter.png"
                     alt="Twitter"
@@ -110,6 +110,7 @@ export default function AppFooter() {
               ))}
             </TextField>
           </Grid>
+          {/*
           <Grid item>
             <Typography variant="caption">
               {'Icons made by '}
@@ -131,6 +132,7 @@ export default function AppFooter() {
               </Link>
             </Typography>
           </Grid>
+          */}
         </Grid>
       </Container>
     </Typography>
