@@ -7,16 +7,18 @@ import SignIn from "./SignIn";
 import SignUp from "./SignUp";
 import Terms from "./Terms";
 import Privacy from "./Privacy";
+import ForgotPassword from "./ForgotPassword";
 
 function App() {
   return (
     <Router>
       <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="/signin" element={<SignIn/>} />
-          <Route path="/signup" element={<SignUp/>} />
+          <Route path="/sign-in" element={<SignIn/>} />
+          <Route path="/sign-up" element={<SignUp/>} />
           <Route path="/terms" element={<Terms/>} />
           <Route path="/privacy" element={<Privacy/>} />
+          <Route path="/forgot-password" element={<ForgotPassword/>} />
       </Routes>
     </Router>
   );

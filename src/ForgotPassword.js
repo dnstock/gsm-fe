@@ -10,6 +10,7 @@ import RFTextField from './modules/form/RFTextField';
 import FormButton from './modules/form/FormButton';
 import FormFeedback from './modules/form/FormFeedback';
 import withRoot from './modules/withRoot';
+import Link from "@mui/material/Link";
 
 function ForgotPassword() {
   const [sent, setSent] = React.useState(false);
@@ -84,6 +85,11 @@ function ForgotPassword() {
             </Box>
           )}
         </Form>
+        <Typography align="center">
+          <Link underline="always" href="/sign-in/">
+            Sign in?
+          </Link>
+        </Typography>
       </AppForm>
       <AppFooter />
     </React.Fragment>

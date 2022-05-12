@@ -43,11 +43,11 @@ function SignIn() {
           <Typography variant="body2" align="center">
             {'Not a member yet? '}
             <Link
-              href="/premium-themes/onepirate/sign-up/"
+              href="/sign-up/"
               align="center"
               underline="always"
             >
-              Sign Up here
+              Request invite here
             </Link>
           </Typography>
         </React.Fragment>
@@ -104,7 +104,7 @@ function SignIn() {
           )}
         </Form>
         <Typography align="center">
-          <Link underline="always" href="/premium-themes/onepirate/forgot-password/">
+          <Link underline="always" href="/forgot-password/">
             Forgot password?
           </Link>
         </Typography>
