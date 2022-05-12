@@ -5,40 +5,6 @@ import ProductHeroLayout from './ProductHeroLayout';
 
 const backgroundImage =
   './productHeroBackground.jpg';
-  // './bg/gsm-bg3.jpg'; //*
-  // './bg/gsm-bg4.webp'; //*
-  // './bg/gsm-bg6.jpg'; //*
-  // './bg/gsm-bg7.png'; //*
-  // './bg/gsm-bg8.jpg'; //** dark
-  // './bg/gsm-bg10.jpg'; //** dark
-  // './bg/gsm-bg15.jpg'; //*
-  // './bg/gsm-bg16.jpg'; //*
-  // './bg/gsm-bg17.jpg'; //** light
-  // './bg/gsm-bg24.jpg'; //**
-  // './bg/gsm-bg25.jpg'; //*
-  // './bg/gsm-bg29.jpg'; //*
-  // './bg/gsm-bg30.jpg'; //** the one
-  // './bg/gsm-bg28.jpg'; // Matrix
-  // './bg/gsm-bg5.jpg'; // Skyscrapers
-  // './bg/gsm-bg1.jpg';
-  // './bg/gsm-bg2.jpg';
-  // './bg/gsm-bg9.jpg';
-  // './bg/gsm-bg11.jpg';
-  // './bg/gsm-bg12.jpg';
-  // './bg/gsm-bg13.webp';
-  // './bg/gsm-bg14.jpg';
-  // './bg/gsm-bg18.jpg';
-  // './bg/gsm-bg19.png';
-  // './bg/gsm-bg20.jpg';
-  // './bg/gsm-bg21.jpg';
-  // './bg/gsm-bg22.webp';
-  // './bg/gsm-bg23.jpg';
-  // './bg/gsm-bg26.jpg';
-  // './bg/gsm-bg27.jpg';
-  // './bg/gsm-bgX1.jpg';
-  // './bg/gsm-bgX2.jpg';
-  // './bg/gsm-bgX3.jpg';
-  // 'https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400&q=80';
 
 export default function ProductHero() {
   return (
@@ -82,7 +48,7 @@ export default function ProductHero() {
         Request Invite
       </Button>
       <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
-        Expand your experience
+        Start your journey.
       </Typography>
     </ProductHeroLayout>
   );
