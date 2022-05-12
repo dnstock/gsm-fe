@@ -30,21 +30,15 @@ function ProductValues() {
             <Box sx={item}>
               <Box
                 component="img"
-                src="/productValues1.svg"
+                src="/productValues1.png"
                 alt="suitcase"
-                sx={{ height: 55 }}
+                sx={{ height: 75 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                The best luxury hotels
+                Next Level Portfolio
               </Typography>
               <Typography variant="h5">
-                {
-                  'From the latest trendy boutique hotel to the iconic palace with XXL pool'
-                }
-
-                {
-                  ', go for a mini-vacation just a few subway stops away from your home.'
-                }
+                Bring your asset management together with our powerful platform and tools.
               </Typography>
             </Box>
           </Grid>
@@ -52,19 +46,15 @@ function ProductValues() {
             <Box sx={item}>
               <Box
                 component="img"
-                src="/productValues2.svg"
+                src="/productValues2.png"
                 alt="graph"
-                sx={{ height: 55 }}
+                sx={{ height: 75 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                New experiences
+                Coin Buckets
               </Typography>
               <Typography variant="h5">
-                {
-                  'Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… '
-                }
-
-                {'your Sundays will not be alike.'}
+                Create buckets to consolidate a diverse set of crypto assets and earning strategies.
               </Typography>
             </Box>
           </Grid>
@@ -72,16 +62,15 @@ function ProductValues() {
             <Box sx={item}>
               <Box
                 component="img"
-                src="/productValues3.svg"
+                src="/productValues3.webp"
                 alt="clock"
-                sx={{ height: 55 }}
+                sx={{ height: 75 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Exclusive rates
+                Earn Together
               </Typography>
               <Typography variant="h5">
-                {'By registering, you will access specially negotiated rates '}
-                {'that you will not find anywhere else.'}
+                Become a revenue stream for your friends and followers. Earn residual while you're at it.
               </Typography>
             </Box>
           </Grid>

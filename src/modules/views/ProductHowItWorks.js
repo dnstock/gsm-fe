@@ -67,7 +67,7 @@ function ProductHowItWorks() {
                   sx={image}
                 />
                 <Typography variant="h5" align="center">
-                  Appointment every Wednesday 9am.
+                  <b style={{ color: "#333" }}>Create</b> a Coin Bucket with assets to hold or trade.
                 </Typography>
               </Box>
             </Grid>
@@ -81,8 +81,7 @@ function ProductHowItWorks() {
                   sx={image}
                 />
                 <Typography variant="h5" align="center">
-                  First come, first served. Our offers are in limited quantities, so
-                  be quick.
+                  <b style={{ color: "#333" }}>Decide</b> on a payment model to earn from the Coin Bucket.
                 </Typography>
               </Box>
             </Grid>
@@ -96,8 +95,7 @@ function ProductHowItWorks() {
                   sx={image}
                 />
                 <Typography variant="h5" align="center">
-                  {'New offers every week. New experiences, new surprises. '}
-                  {'Your Sundays will no longer be alike.'}
+                  <b style={{ color: "#333" }}>Mint</b> the Coin Bucket then notify friend and followers.
                 </Typography>
               </Box>
             </Grid>
