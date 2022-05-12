@@ -34,10 +34,10 @@ function ProductCTA() {
           >
             <Box component="form" onSubmit={handleSubmit} sx={{ maxWidth: 400 }}>
               <Typography variant="h2" component="h2" gutterBottom>
-                Receive offers
+                Request an Invite
               </Typography>
               <Typography variant="h5">
-                Taste the holidays of the everyday close to home.
+                Join our private beta and experience it for yourself.
               </Typography>
               <TextField
                 noBorder
@@ -51,7 +51,7 @@ function ProductCTA() {
                 variant="contained"
                 sx={{ width: '100%' }}
               >
-                Keep me updated
+                Request Invitation
               </Button>
             </Box>
           </Box>
@@ -75,7 +75,8 @@ function ProductCTA() {
           />
           <Box
             component="img"
-            src="https://images.unsplash.com/photo-1527853787696-f7be74f2e39a?auto=format&fit=crop&w=750&q=80"
+            src="./productCTAImage1.png"
+            // src="https://images.unsplash.com/photo-1527853787696-f7be74f2e39a?auto=format&fit=crop&w=750&q=80"
             alt="call to action"
             sx={{
               position: 'absolute',

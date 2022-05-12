@@ -23,25 +23,25 @@ function AppAppBar() {
             href="/"
             sx={{ fontSize: 24 }}
           >
-            {'Game・Set・Match'}
+            {'GameSetMatch'}
           </Link>
           <Box sx={{ flex: 1, display: 'flex', justifyContent: 'flex-end' }}>
             <Link
               color="inherit"
               variant="h6"
               underline="none"
-              href="/sign-in/"
+              href="/sign-up/"
               sx={rightLink}
             >
-              {'Sign In'}
+              {'Request Invite'}
             </Link>
             <Link
               variant="h6"
               underline="none"
-              href="/sign-up/"
+              href="/sign-in/"
               sx={{ ...rightLink, color: 'secondary.main' }}
             >
-              {'Sign Up'}
+              {'Sign In'}
             </Link>
           </Box>
         </Toolbar>

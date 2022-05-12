@@ -111,7 +111,7 @@ function ProductHowItWorks() {
           href="/sign-up/"
           sx={{ mt: 8 }}
         >
-          Get started
+          Request Invite
         </Button>
       </Container>
     </Box>
