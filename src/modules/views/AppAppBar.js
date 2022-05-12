@@ -30,18 +30,27 @@ function AppAppBar() {
               color="inherit"
               variant="h6"
               underline="none"
-              href="/sign-up/"
+              href="/"
               sx={rightLink}
             >
-              {'Request Invite'}
+              {'Home'}
+            </Link>
+            <Link
+              color="inherit"
+              variant="h6"
+              underline="none"
+              href="/sign-in/"
+              sx={rightLink}
+            >
+              {'Sign In'}
             </Link>
             <Link
               variant="h6"
               underline="none"
-              href="/sign-in/"
+              href="/sign-up/"
               sx={{ ...rightLink, color: 'secondary.main' }}
             >
-              {'Sign In'}
+              {'Request Invite'}
             </Link>
           </Box>
         </Toolbar>
