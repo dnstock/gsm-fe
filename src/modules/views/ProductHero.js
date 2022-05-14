@@ -23,9 +23,9 @@ export default function ProductHero() {
       />
       <Typography color="inherit" align="center" variant="h2" marked="center">
         <img
-          src={'./gsm-logo.png'}
+          src={'./logo.png'}
           height={80}
-          style={{ position: "absolute", marginLeft: -105, marginTop: -10 }}
+          style={{ position: "absolute", marginLeft: -105, marginTop: -15 }}
         />
         DeFi on Steroids.
       </Typography>
