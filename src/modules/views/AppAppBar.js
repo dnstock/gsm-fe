@@ -23,6 +23,12 @@ function AppAppBar() {
             href="/"
             sx={{ fontSize: 24 }}
           >
+            <img
+                src='./logo-bw.png'
+                alt='logo'
+                height={50}
+                style={{ position: "absolute", marginLeft: -60, marginTop: -8 }}
+            />
             {'Vast'}
           </Link>
           <Box sx={{ flex: 1, display: 'flex', justifyContent: 'flex-end' }}>
