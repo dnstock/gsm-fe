@@ -24,7 +24,7 @@ function AppAppBar() {
             sx={{ fontSize: 24 }}
           >
             <img
-                src='./logo-bw.png'
+                src='/logo-bw.png'
                 alt='logo'
                 height={50}
                 style={{ position: "absolute", marginLeft: -60, marginTop: -8 }}
