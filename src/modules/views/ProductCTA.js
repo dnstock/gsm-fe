@@ -93,7 +93,7 @@ function ProductCTA() {
       <Snackbar
         open={open}
         closeFunc={handleClose}
-        message="We will contact you when an invitation is ready."
+        message="We will contact you when your invitation is ready."
       />
     </Container>
   );
