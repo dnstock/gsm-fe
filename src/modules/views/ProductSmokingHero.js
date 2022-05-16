@@ -28,7 +28,7 @@ function ProductSmokingHero() {
       </Typography>
       <Box
         component="img"
-        src="/gsm-logo-bw.png"
+        src="/logo-bw.png"
         alt="logo"
         sx={{ width: 75 }}
       />
