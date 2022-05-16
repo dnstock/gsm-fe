@@ -53,7 +53,7 @@ function AppAppBar() {
             <Link
               variant="h6"
               underline="none"
-              href="/sign-up/"
+              href="/#request-invite"
               sx={{ ...rightLink, color: 'secondary.main' }}
             >
               {'Request Invite'}
