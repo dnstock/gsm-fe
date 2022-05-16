@@ -11,7 +11,7 @@ function Copyright() {
     <React.Fragment>
       {'© '}
       <Link color="inherit" href="https://google.com/">
-        GameSetMatch
+        Vast
       </Link>{' '}
       {new Date().getFullYear()}
     </React.Fragment>
