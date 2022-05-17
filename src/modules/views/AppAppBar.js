@@ -31,32 +31,48 @@ function AppAppBar() {
             />
             {'Vast'}
           </Link>
-          <Box sx={{ flex: 1, display: 'flex', justifyContent: 'flex-end' }}>
+          <Box sx={{ flex: 1, display: 'flex', justifyContent: 'flex-end', marginTop: 1 }}>
             <Link
               color="inherit"
               variant="h6"
+              title="Home"
               underline="none"
               href="/"
               sx={rightLink}
             >
-              {'Home'}
+              <img
+                  src='/iconHome.png'
+                  alt='Home'
+                  height={25}
+              />
             </Link>
             <Link
               color="inherit"
               variant="h6"
+              title="Sign In"
               underline="none"
               href="/sign-in/"
               sx={rightLink}
             >
-              {'Sign In'}
+              <img
+                  src='/iconLogin.png'
+                  alt='Home'
+                  height={25}
+              />
             </Link>
             <Link
               variant="h6"
+              title="Request Invite"
               underline="none"
               href="/#request-invite"
               sx={{ ...rightLink, color: 'secondary.main' }}
             >
-              {'Request Invite'}
+              <img
+                  src='/iconInvite.png'
+                  alt='Request Invite'
+                  height={35}
+                  style={{ marginTop: -6, marginLeft: 10 }}
+              />
             </Link>
           </Box>
         </Toolbar>
